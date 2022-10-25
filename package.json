@@ -3,6 +3,7 @@
   "version": "16.0.2",
   "description": "Middleware and an Upload scalar to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers.",
   "license": "MIT",
+  "main": "index",
   "author": {
     "name": "Jayden Seric",
     "email": "me@jaydenseric.com",
@@ -26,24 +27,7 @@
     "esm",
     "mjs"
   ],
-  "files": [
-    "GRAPHQL_MULTIPART_REQUEST_SPEC_URL.mjs",
-    "GraphQLUpload.mjs",
-    "graphqlUploadExpress.mjs",
-    "graphqlUploadKoa.mjs",
-    "ignoreStream.mjs",
-    "processRequest.mjs",
-    "Upload.mjs"
-  ],
   "sideEffects": false,
-  "exports": {
-    "./GraphQLUpload.mjs": "./GraphQLUpload.mjs",
-    "./graphqlUploadExpress.mjs": "./graphqlUploadExpress.mjs",
-    "./graphqlUploadKoa.mjs": "./graphqlUploadKoa.mjs",
-    "./package.json": "./package.json",
-    "./processRequest.mjs": "./processRequest.mjs",
-    "./Upload.mjs": "./Upload.mjs"
-  },
   "engines": {
     "node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
   },
