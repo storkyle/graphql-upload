@@ -5,7 +5,7 @@ const processRequest = require("./processRequest.js");
 const Upload = require("./Upload.js");
 
 
-export {
+module.exports = {
   GraphQLUpload,
   Upload,
   graphqlUploadExpress,
