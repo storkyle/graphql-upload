@@ -1,8 +1,8 @@
-import GraphQLUpload from "./GraphQLUpload.js"
-import graphqlUploadExpress from "./graphqlUploadExpress.js"
-import graphqlUploadKoa from "./graphqlUploadKoa.js"
-import processRequest from "./processRequest.js"
-import Upload from "./Upload.js"
+const GraphQLUpload = require("./GraphQLUpload.js");
+const graphqlUploadExpress = require("./graphqlUploadExpress.js");
+const graphqlUploadKoa = require("./graphqlUploadKoa.js");
+const processRequest = require("./processRequest.js");
+const Upload = require("./Upload.js");
 
 
 export {
